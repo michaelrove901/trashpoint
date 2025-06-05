@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://dpg-c8i6zirph6e738ru1dp-a.oregon-postgres.render.com:5432/trashpoint_db
+    url: jdbc:postgresql://dpg-d10ic8ripnbc738ruld0-a.oregon-postgres.render.com/trashpoint_db
     username: trashpoint_db_user
     password: UlmlVawVyYcGNSOuYEma0B20fVJlx0cH
     driver-class-name: org.postgresql.Driver
