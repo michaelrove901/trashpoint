@@ -107,6 +107,7 @@ public class ReportController {
         return ResponseEntity.ok(response);
     }
 
+
     @PatchMapping("/{id}/status")
     public ResponseEntity<?> updateReportStatus(@PathVariable UUID id, @RequestBody Map<String, String> body) {
         WasteReport report = reportRepository.findById(id)
