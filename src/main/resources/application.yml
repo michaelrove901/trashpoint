@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/TrashPointApp
-    username: postgres
-    password: 1234
+    url: jdbc:postgresql://dpg-c8i6zirph6e738ru1dp-a.oregon-postgres.render.com:5432/trashpoint_db
+    username: trashpoint_db_user
+    password: UlmlVawVyYcGNSOuYEma0B20fVJlx0cH
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -15,8 +15,5 @@ spring:
 
   main:
     allow-bean-definition-overriding: true
-
-
-
 server:
   port: 8080
