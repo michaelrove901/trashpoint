@@ -30,7 +30,7 @@ public class AdminController {
     public ResponseEntity<?> toggleUserActive(@PathVariable UUID id) {
         User user = userRepository.findById(id)
                 .orElseThrow(() -> new CustomErrorResponse("Usuario no encontrado", 404));
-        
+
 
         user.setActive(!user.isActive());
         userRepository.save(user);
